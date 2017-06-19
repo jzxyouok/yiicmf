@@ -1,0 +1,27 @@
+#!/usr/bin/env php
+<?php
+//define('YII_ENV',                 'dev');
+//define('YII_DEBUG',               true);
+//define("COMMON_DIR",              ROOT_DIR . '/common');
+//define("COMMON_CONFIG_DIR",       COMMON_DIR . '/config');
+//define("COMMON_RUNTIME_DIR",      COMMON_DIR . '/runtime');
+//define("VENDOR_DIR",              ROOT_DIR . '/vendor');
+
+define("ROOT_DIR", __DIR__);
+define("APP_DIR", __DIR__ . '/console');
+
+define("APP_CONFIG_DIR", realpath(APP_DIR . '/config'));
+define("APP_RUNTIME_DIR", realpath(APP_DIR . '/runtime'));
+
+/**
+* Web应用程序的加载和启动
+* Loading and starting Web application
+*/
+$yiisnsFile = ROOT_DIR . '/vendor/yiisns/yiisns-apps/app-console.php';
+
+if (!file_exists($yiicmfFile))
+{
+    echo("\n\nNot install yiisns application!\n\n");
+}
+
+include $yiisnsFile;

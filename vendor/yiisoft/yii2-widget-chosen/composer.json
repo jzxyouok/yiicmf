@@ -1,0 +1,27 @@
+{
+    "name": "skeeks/yii2-widget-chosen",
+    "description": "Bootstrap Chosen widget for Yii2",
+    "keywords": ["yii2", "extension", "widget", "chosen", "bootstrap", "bootstrap 3", "skeeks"],
+    "type": "yii2-extension",
+    "homepage": "http://www.skeeks.com/",
+    "license": "BSD 3-Clause",
+    "support": {
+        "issues": "http://www.skeeks.com/",
+        "wiki": "http://git.skeeks.com/skeeks/yii2-widget-chosen/blob/master/README.md",
+        "source": "http://git.skeeks.com/skeeks/yii2-widget-chosen"
+    },
+    "authors": [
+        {
+            "name": "Semenov Alexander",
+            "email": "semenov@skeeks.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "skeeks\\widget\\chosen\\": ""
+        }
+    }
+}
