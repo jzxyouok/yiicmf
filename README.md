@@ -1,1 +1,1 @@
-﻿
+YiiCMF is a content management framework based on the YII2 framework.﻿
