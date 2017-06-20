@@ -7,7 +7,7 @@
  */
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=yiisnsapp_new',
+    'dsn' => 'mysql:host=localhost;dbname=devyiisnscn',
     'username' => 'root',
     'password' => '810613',
     'charset' => 'utf8',
