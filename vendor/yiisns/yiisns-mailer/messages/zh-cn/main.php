@@ -1,0 +1,28 @@
+<?php 
+return 
+[
+    "Theme"  =>  "Theme",
+	"Mailer"  =>  "Mailer",
+	"Incorrect email address"  =>  "Incorrect email address",
+	"E-mail address of the sender"  =>  "E-mail address of the sender",
+	"Name of the sender"  =>  "Name of the sender",
+	"Duplicate all sent letters"  =>  "Duplicate all sent letters",
+	"Duplicate all sent letters as hidden"  =>  "Duplicate all sent letters as hidden",
+	"Settings"  =>  "Settings",
+	"Testing sending"  =>  "Testing sending",
+	"Testing send email messages from site"  =>  "Testing send email messages from site",
+	"Test message"  =>  "Test message",
+	"Body"  =>  "Body",
+	"If you have any problems with our website"  =>  "If you have any problems with our website",
+	"please do not hesitate to contact us"  =>  "please do not hesitate to contact us",
+	"To"  =>  "To",
+	"From"  =>  "From",
+	"Subject"  =>  "Subject",
+	"Content"  =>  "Content",
+	"Configuration of component {app} sending {email}"  =>  "Configuration of component {app} sending {email}",
+	"Configuration of {php} sending {email}"  =>  "Configuration of {php} sending {email}",
+	"Component settings"  =>  "Component settings",
+	"Send email"  =>  "Send email",
+	"Transport running"  =>  "Transport running",
+	"Letter test"  =>  "Letter test",
+];

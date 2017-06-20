@@ -1,0 +1,27 @@
+<?php 
+return 
+[
+    "Activate"  =>  "Activate",
+	"Agents"  =>  "Agents",
+	"Deactivate"  =>  "Deactivate",
+	"Executing"  =>  "Executing",
+	"Agents enabled on the hits"  =>  "Agents enabled on the hits",
+	"Last Execution At"  =>  "Last Execution At",
+	"Main"  =>  "Main",
+	"Next Execution At"  =>  "Next Execution At",
+	"Agent's Function"  =>  "Agent's Function",
+	"Interval (sec)"  =>  "Interval (sec)",
+	"Periodic"  =>  "Periodic",
+	"Description"  =>  "Description",
+	"Active"  =>  "Active",
+	"Priority"  =>  "Priority",
+	"Find and download of files"  =>  "Find and download of files",
+	"Files with agents"  =>  "Files with agents",
+	"Found agents"  =>  "Found agents",
+	"Is Running"  =>  "Is Running",
+	"Agents have been updated successfully"  =>  "Agents have been updated successfully",
+	"Attention! You use agents mechanism hits users. If possible, switch them on cron."  =>  "Attention! You use agents mechanism hits users. If possible, switch them on cron.",
+	"In the project settings specified that you are using a mechanism on the crown agents. If the agents do not work, check the entry in the file cron"  =>  "In the project settings specified that you are using a mechanism on the crown agents. If the agents do not work, check the entry in the file cron",
+	"Running agents stopped"  =>  "Running agents stopped",
+	"Stop running"  =>  "Stop running",
+];

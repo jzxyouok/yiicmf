@@ -1,0 +1,25 @@
+<?php 
+return 
+[
+    "Logging errors in the mysql database"  =>  "数据库日志设置",
+	'Logs Management'  =>  '日志管理',
+	"Settings"  =>  "Settings",
+	"The number of remote logging"  =>  "The number of remote logging",
+	"Logging options"  =>  "Logging options",
+	"Cleaning mysql logs"  =>  "Cleaning mysql logs",
+	"Cleaning logs"  =>  "Cleaning logs",
+	"If you do not want to deleted all logs, set to 0."  =>  "If you do not want to deleted all logs, set to 0.",
+	"Error levels"  =>  "Error levels",
+	"Additional information for logging"  =>  "Additional information for logging",
+	"Not logging"  =>  "Not logging",
+	"Logging only categies"  =>  "Logging only categies",
+	"On or off"  =>  "On or off",
+	"Time storage of logs (sec.)"  =>  "Time storage of logs (sec.)",
+	"Managing logs"  =>  "日志管理",
+	"Watch"  =>  "查看",
+	"Level"  =>  "日志级别",
+	"Category"  =>  "日志分类",
+	"Log Time"  =>  "记录时间",
+	"Message"  =>  "消息",
+	"How many messages should be accumulated before they are exported"  =>  "How many messages should be accumulated before they are exported",
+];
