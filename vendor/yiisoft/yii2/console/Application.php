@@ -120,8 +120,8 @@ class Application extends \yii\base\Application
      * Initialize the application.
      */
     public function init()
-    {
-        parent::init();
+    {        
+        parent::init();//exit('11111');
         if ($this->enableCoreCommands) {
             foreach ($this->coreCommands() as $id => $command) {
                 if (!isset($this->controllerMap[$id])) {
@@ -129,6 +129,7 @@ class Application extends \yii\base\Application
                 }
             }
         }
+
         // ensure we have the 'help' command so that we can list the available commands
         if (!isset($this->controllerMap['help'])) {
             $this->controllerMap['help'] = 'yii\console\controllers\HelpController';

@@ -8,7 +8,7 @@
 return [
     'id' => 'yiisns-apps-console',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log', 'appSettings'],
+    'bootstrap' => ['log'],
     'controllerNamespace' => 'console\controllers',
     'components' => [
         'log' => [

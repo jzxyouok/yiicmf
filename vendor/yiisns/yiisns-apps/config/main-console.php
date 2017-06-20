@@ -37,6 +37,10 @@ return [
             'class' => 'yiisns\apps\components\AppSettings'
         ],
         
+        'appCore' => [
+             'class' => 'yiisns\kernel\base\AppCore'
+        ],
+        
         'imaging' => [
             'class' => 'yiisns\apps\components\Imaging'
         ],

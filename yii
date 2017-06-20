@@ -19,7 +19,7 @@ define("APP_RUNTIME_DIR", realpath(APP_DIR . '/runtime'));
 */
 $yiisnsFile = ROOT_DIR . '/vendor/yiisns/yiisns-apps/app-console.php';
 
-if (!file_exists($yiicmfFile))
+if (!file_exists($yiisnsFile))
 {
     echo("\n\nNot install yiisns application!\n\n");
 }

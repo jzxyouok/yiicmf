@@ -1,6 +1,5 @@
 <?php
 /**
- * Запуск console приложения
  *
  * @author uussoft <uussoft@yiisns.cn>
  * @link http://www.yiisns.cn/

@@ -267,7 +267,7 @@ abstract class Application extends Module
      * @inheritdoc
      */
     public function init()
-    {
+    { 
         $this->state = self::STATE_INIT;
         $this->bootstrap();
     }
@@ -283,6 +283,7 @@ abstract class Application extends Module
             $file = Yii::getAlias('@vendor/yiisoft/extensions.php');
             $this->extensions = is_file($file) ? include($file) : [];
         }
+        
         foreach ($this->extensions as $extension) {
             if (!empty($extension['alias'])) {
                 foreach ($extension['alias'] as $name => $path) {
@@ -314,7 +315,6 @@ abstract class Application extends Module
             if (!isset($component)) {
                 $component = Yii::createObject($class);
             }
-
             if ($component instanceof BootstrapInterface) {
                 Yii::trace('Bootstrap with ' . get_class($component) . '::bootstrap()', __METHOD__);
                 $component->bootstrap($this);

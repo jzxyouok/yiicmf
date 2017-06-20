@@ -240,11 +240,4 @@ return array(
             '@yiisns/sx' => $vendorDir . '/yiisns/yiisns-sx'
         )
     ),
-    'yiisns/yiisns-authclient' => array(
-        'name' => 'yiisns/yiisns-authclient',
-        'version' => '1.0.0.0',
-        'alias' => array(
-            '@yiisns/authclient' => $vendorDir . '/yiisns/yiisns-authclient'
-        )
-    ),
 );

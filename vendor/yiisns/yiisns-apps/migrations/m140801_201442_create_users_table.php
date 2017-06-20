@@ -62,7 +62,7 @@ class m140801_201442_create_users_table extends Migration
             'users_votes_down'      => Schema::TYPE_TEXT. ' NULL',   //Пользователи которые проголосовали -*/
         ], $tableOptions);
 
-        $this->execute("ALTER TABLE {{%cms_user}} ADD INDEX(created_at);");
+        /*$this->execute("ALTER TABLE {{%cms_user}} ADD INDEX(created_at);");
         $this->execute("ALTER TABLE {{%cms_user}} ADD INDEX(updated_at);");
         $this->execute("ALTER TABLE {{%cms_user}} ADD UNIQUE(username);");
         $this->execute("ALTER TABLE {{%cms_user}} ADD INDEX(email);");
@@ -88,7 +88,7 @@ class m140801_201442_create_users_table extends Migration
         $this->addForeignKey(
             'auth_assignment_user_id', $authManager->assignmentTable,
             'user_id', '{{%cms_user}}', 'id', 'CASCADE', 'CASCADE'
-        );
+        );*/
 
     }
 
@@ -110,6 +110,6 @@ class m140801_201442_create_users_table extends Migration
         $authManager = $this->getAuthManager();
 
         $this->dropForeignKey("auth_assignment_user_id", $authManager->assignmentTable);
-        $this->dropTable('{{%cms_user}}');
+        $this->dropTable('{{%users}}');
     }
 }
